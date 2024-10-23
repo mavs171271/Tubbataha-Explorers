@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome To Tubbataha Explorer !</h1>
+    <p>Feel Free to learn and witness the beauty of species living beneath the waves</a>.</p>
+</div>
+
+    <h3 class="mt-5">What is Tubbataha Reef?</h3>
+<img src="https://philippinesvacationplaces.com/wp-content/uploads/2023/03/istockphoto-900464788-612x612-1.jpg" class="float-end w-25 img-fluid" />
+    <p class="mt-5">Tubbataha Reefs Natural Park is a marine protected area and world-renowned scuba diving site. It is home to more than 1,200 marine species,
+    including sea grasses and algae, corals, sharks, rays, fishes, sea turtles, seabirds and marine mammals.It is a unique example of an atoll reef with a very high density of marine species; the North Islet serving as a nesting site for birds and marine turtles. The site is an excellent example of a pristine coral reef with a spectacular 100-m perpendicular wall, extensive lagoons and two coral islands.</p>
+    <h3 class="mt-5">How has it changed overtime</h3>
+    <p>Extreme temperatures caused by climate change resulted in coral bleaching, which affected up to 20% of the hard coral cover of the park in 2020. Hard coral cover continued to decline in 2021, indicating that some sites failed to recover from its impacts.</p>
+
+
+
+
+
+<div class="card-container">
+    <div class="card">
+        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSa4fm7mX73xw6h9llwlpuykiCpAiOCC8pKPTKQvpREVZlUMKjs" />
+        <div class="card-content">
+            <h3>Scissortail Sergeant</h3>
+            <p>belongs to the family of damselfish, and they get their name from the black lines that extend across the superior and inferior lobes of their tails. </p>
+            <a href="@Url.Action("Scissortail","Home")" class="btn">Read More...</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Acanthuridae_-_Acanthurus_achilles.JPG" />
+        <div class="card-content">
+            <h3>Achilles Tang</h3>
+            <p>a marine ray-finned fish belonging to the family Acanthuridae, the surgeonfishes, unicornfishes and tangs. This fish is found in the Pacific Ocean.</p>
+            <a href="@Url.Action("Achilles","Home")" class="btn">Read More...</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://churaumi.okinawa/userfiles/fish_images/shinkaigyo/oogutiisitibiki-resize.jpg" />
+        <div class="card-content">
+            <h3>Rusty Jobfish</h3>
+            <p>is an elongate species with a large lunate tail. It has a large mouth with a protruding lower jaw and minute teeth.</p>
+            <a href="@Url.Action("Rusty","Home")" class="btn">Read More...</a>
+        </div>
+    </div>
+</div>
+<div class="d-flex justify-content-center">
+    <a href="@Url.Action("Species","Home")" class="btn btn-primary">Browse more Species</a>
+</div>
+
+
